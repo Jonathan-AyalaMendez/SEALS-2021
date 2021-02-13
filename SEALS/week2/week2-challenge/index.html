@@ -26,8 +26,8 @@
 
           <div class="col-xl">
           <input type="text" id="txt"name="txt" onclick="this.value=''"/>
-          <button id="confirm" onclick="getAndSetVal();">Confirm Name</button>
           <input type="text" id="txt2"name="txt" onclick="this.value=''"/>
+          <button id="confirm" onclick="getAnddisplayVal();">confirm</button>
          </div>
 
         </div>
@@ -50,26 +50,6 @@
     </div>
       
 <!-- Bootstrap Bundle with Popper -->
-    <script>
-     
-     document.getElementById('txt').value = "Text Here";
-        
-        // set value using input
-      document.getElementsByTagName('input')[0].value = "First and Last Name";
-        
-        function getAndSetVal()
-        {
-            var txt1 = document.getElementById('txt').value;
-            document.getElementById('txt2').value = txt1;
-        }
-        
-        // get value
-        function getVal()
-        {
-         var txt = document.getElementById('txt').value;
-         alert(txt);
-        }
-
-    </script>
+    <script src="function.js"> </script>
   </body>
   </html>
