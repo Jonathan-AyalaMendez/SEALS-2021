@@ -1,0 +1,81 @@
+body {
+  background-color: tan;
+  color: black;
+}
+
+.topnav {
+  overflow: hidden;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-button {
+  background-color: blue;
+  padding: 2%;
+  margin: 5px;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: green;
+    color: white;
+  }
+  p {
+    font-size: 36px;
+  }
+} */
+
+/* On screens that are 600px wide or less, the background color is olive */
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: red;
+    color: white;
+  }
+  p {
+    font-size: 44px;
+  }
+  .topnav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .topnav a {
+    float: none;
+    text-align: center;
+  }
+} */
+
+/* print, screen, all, speech */
+/* @media print {
+  h1 {
+    color: lightpink;
+  }
+} */
+
+@media (min-width: 600px) {
+  h1 {
+    color: red;
+  }
+  p {
+    color: blue;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,104 @@
+body {background-color: #accce6;}
+.segment { 
+    margin: auto;
+    width: 50%;
+    border: 3px solid #4a85c8;
+    padding: 10px;
+        }
+div {background-color: white;}
+
+#header { 
+    text-align: center;
+    background-color:#003373;
+    width: 100%;
+    border-style: ridge;
+    }
+#header h1 {
+    color: white;
+    font-size: 40px;
+           }
+
+img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    }
+#image {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0%;
+    width: 50%;
+    background-color: transparent;
+    border-style: hidden;
+         }
+
+#aboutme {
+    width: 95%;
+    margin-bottom: 15px;
+    border-style: double 40%;
+    font-size: 19px;
+         }
+
+    * {
+        box-sizing: border-box;
+      }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    border: 3px inset green;
+    text-align: center;
+    color: #5e514e;
+        }
+
+      
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+           }
+
+ul {
+    text-align: left;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 990px) {
+
+    img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        }
+
+    #aboutme {
+        width: 100%;
+        margin-bottom: 15px;
+        border-style: double 40%;
+        font-size: 20px;
+             }
+
+    .column {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        border: 3px inset #4a85c8;
+        text-align: center;
+        color: #5e514e;
+            }
+
+            @media screen and (min-width: 495px) {
+                p { font-size: 17px; }
+                li {font-size: 17px;}
+            }
+
+            @media screen and (min-width: 247px) {
+                p {font-size: 15px;}
+                li {font-size: 15px;}
+                #image {
+                    width: 500px;
+                       }
+                    }

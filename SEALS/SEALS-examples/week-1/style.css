@@ -1,0 +1,17 @@
+/* ID for header */
+#header {
+  font-size: 60px;
+  border-style: solid;
+  border-color: blue;
+}
+
+#content {
+  font-size: 16px;
+  border-style: solid;
+  border-color: red;
+}
+
+/* CLASS */
+.paragraphs {
+  color: yellow;
+}

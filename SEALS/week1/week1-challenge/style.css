@@ -1,0 +1,63 @@
+body {background-color: #FAFAD2;}
+
+#banner {background-color: #046307; 
+     margin-top: 0px;
+     overflow: auto;
+    }
+h1 { text-align: center;
+     color: #FFDF00;
+     text-shadow: 2px 2px black;
+    }
+
+h2 {text-align: center;}
+#rainbow-text {   margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+              }
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    }
+
+.segment {   
+    margin: auto;
+    width: 55%;
+    border: 3px solid green;
+    padding: 10px;
+          }
+
+#tree { border-style: none;}
+
+@media (max-width: 900px) {
+    
+    #banner {background-color: blue; 
+        margin-top: 0px;
+        overflow: auto;
+       }
+
+    .segment { 
+                margin-left:auto;
+                margin-right: auto;
+                width: 90%;
+                border: 3px solid blue
+             }
+}
+
