@@ -1,0 +1,238 @@
+<head>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Hello World</h1>
+</div>
+
+<div style="overflow:auto">
+  
+  <div class="menu">
+    <a>Home</a>
+  </div>
+  <div class="main">
+    <p>This is a prottype of a website I created to help my younger brother and cousin wiht their homework whenever I am not arround.</p>
+  </div>
+  <div class="right">
+    <p style="font-size: 12px;">For any Questions, or to get into contact with me, please write down oyur email bellow </p>
+    <p style="font-size: 11px; text-align:left">Email:</p>
+    <input style="width: 100%; margin: auto;" type="text" id="email" name="email" onclick="this.value=''"/>
+    <button id="confirm" onclick="showEmail();">confirm</button>
+  </div>
+  
+<div class="menu">
+  <a>Math</a>
+  </div>
+  <div class="main" style="height: 50%;">
+    <p>This is the math section. Use the calculator bellow to help you with completign any math assignemnts</p>
+    <div class="calculator ">
+
+      <input type="text" class="calculator-screen z-depth-1" value="" disabled />
+    
+      <div class="calculator-keys">
+        <!-- first row -->
+        <button type="button" class="operator btn btn-info" value="+">+</button>
+        <button type="button" class="operator btn btn-info" value="-">-</button>
+        <button type="button" class="operator btn btn-info" value="*">&times;</button>
+        <button type="button" class="operator btn btn-info" value="/">&divide;</button>
+        
+        <!-- second row -->
+        <button type="button" value="7" class="btn btn-light waves-effect">7</button>
+        <button type="button" value="8" class="btn btn-light waves-effect">8</button>
+        <button type="button" value="9" class="btn btn-light waves-effect">9</button>
+    
+        <!-- third row -->
+        <button type="button" value="4" class="btn btn-light waves-effect">4</button>
+        <button type="button" value="5" class="btn btn-light waves-effect">5</button>
+        <button type="button" value="6" class="btn btn-light waves-effect">6</button>
+    
+        <!-- fourth row -->
+        <button type="button" value="1" class="btn btn-light waves-effect">1</button>
+        <button type="button" value="2" class="btn btn-light waves-effect">2</button>
+        <button type="button" value="3" class="btn btn-light waves-effect">3</button>
+    
+        <!-- fifth row -->
+        <button type="button" value="0" class="btn btn-light waves-effect">0</button>
+        <button type="button" class="decimal function btn btn-secondary" value=".">.</button>
+        <button type="button" class="all-clear function btn btn-danger btn-sm" value="all-clear">AC</button>
+    
+        <!-- equal button -->
+        <button type="button" class="equal-sign operator btn btn-default" value="=">=</button>
+    
+      </div>
+    </div>
+  </div>
+
+ <div class="menu"> 
+  <a>English</a>
+  </div>
+  <div class="main">
+    <p>This is the English section. Use the guide bellow to help writiing an essay.</p>
+
+    <h4>Essay Structure</h4>
+    <p>
+    Writing an academic essay means fashioning a coherent set of ideas into an argument. Because essays are essentially linear—they offer one idea at a time—they must present their ideas in the order that makes most sense to a reader. Successfully structuring an essay means attending to a reader's logic.
+    
+    The focus of such an essay predicts its structure. It dictates the information readers need to know and the order in which they need to receive it. Thus your essay's structure is necessarily unique to the main claim you're making. Although there are guidelines for constructing certain classic essay types (e.g., comparative analysis), there are no set formula.
+    
+    Answering Questions:  The Parts of an Essay
+    
+    A typical essay contains many different kinds of information, often located in specialized parts or sections. Even short essays perform several different operations: introducing the argument, analyzing data, raising counterarguments, concluding. Introductions and conclusions have fixed places, but other parts don't. Counterargument, for example, may appear within a paragraph, as a free-standing section, as part of the beginning, or before the ending. Background material (historical context or biographical information, a summary of relevant theory or criticism, the definition of a key term) often appears at the beginning of the essay, between the introduction and the first analytical section, but might also appear near the beginning of the specific section to which it's relevant.
+    
+    It's helpful to think of the different essay sections as answering a series of questions your reader might ask when encountering your thesis. (Readers should have questions. If they don't, your thesis is most likely simply an observation of fact, not an arguable claim.)
+    
+    "What?"  The first question to anticipate from a reader is "what": What evidence shows that the phenomenon described by your thesis is true? To answer the question you must examine your evidence, thus demonstrating the truth of your claim. This "what" or "demonstration" section comes early in the essay, often directly after the introduction. Since you're essentially reporting what you've observed, this is the part you might have most to say about when you first start writing. But be forewarned: it shouldn't take up much more than a third (often much less) of your finished essay. If it does, the essay will lack balance and may read as mere summary or description.
+    
+    "How?"  A reader will also want to know whether the claims of the thesis are true in all cases. The corresponding question is "how": How does the thesis stand up to the challenge of a counterargument? How does the introduction of new material—a new way of looking at the evidence, another set of sources—affect the claims you're making? Typically, an essay will include at least one "how" section. (Call it "complication" since you're responding to a reader's complicating questions.) This section usually comes after the "what," but keep in mind that an essay may complicate its argument several times depending on its length, and that counterargument alone may appear just about anywhere in an essay.
+    
+    "Why?"  Your reader will also want to know what's at stake in your claim: Why does your interpretation of a phenomenon matter to anyone beside you? This question addresses the larger implications of your thesis. It allows your readers to understand your essay within a larger context. In answering "why", your essay explains its own significance. Although you might gesture at this question in your introduction, the fullest answer to it properly belongs at your essay's end. If you leave it out, your readers will experience your essay as unfinished—or, worse, as pointless or insular.
+    </p>
+
+    <h4>Mapping an Essay</h4>
+    
+    <p>
+    Structuring your essay according to a reader's logic means examining your thesis and anticipating what a reader needs to know, and in what sequence, in order to grasp and be convinced by your argument as it unfolds. The easiest way to do this is to map the essay's ideas via a written narrative. Such an account will give you a preliminary record of your ideas, and will allow you to remind yourself at every turn of the reader's needs in understanding your idea.
+    
+    Essay maps ask you to predict where your reader will expect background information, counterargument, close analysis of a primary source, or a turn to secondary source material. Essay maps are not concerned with paragraphs so much as with sections of an essay. They anticipate the major argumentative moves you expect your essay to make. Try making your map like this:
+    
+    State your thesis in a sentence or two, then write another sentence saying why it's important to make that claim. Indicate, in other words, what a reader might learn by exploring the claim with you. Here you're anticipating your answer to the "why" question that you'll eventually flesh out in your conclusion.
+    Begin your next sentence like this: "To be convinced by my claim, the first thing a reader needs to know is . . ." Then say why that's the first thing a reader needs to know, and name one or two items of evidence you think will make the case. This will start you off on answering the "what" question. (Alternately, you may find that the first thing your reader needs to know is some background information.)
+    Begin each of the following sentences like this: "The next thing my reader needs to know is . . ."  Once again, say why, and name some evidence. Continue until you've mapped out your essay. 
+    Your map should naturally take you through some preliminary answers to the basic questions of what, how, and why. It is not a contract, though—the order in which the ideas appear is not a rigid one. Essay maps are flexible; they evolve with your ideas.
+   </p>
+
+   <h4>Signs of Trouble</h4> 
+    <p>
+    A common structural flaw in college essays is the "walk-through" (also labeled "summary" or "description"). Walk-through essays follow the structure of their sources rather than establishing their own. Such essays generally have a descriptive thesis rather than an argumentative one. Be wary of paragraph openers that lead off with "time" words ("first," "next," "after," "then") or "listing" words ("also," "another," "in addition"). Although they don't always signal trouble, these paragraph openers often indicate that an essay's thesis and structure need work: they suggest that the essay simply reproduces the chronology of the source text (in the case of time words: first this happens, then that, and afterwards another thing . . . ) or simply lists example after example ("In addition, the use of color indicates another way that the painting differentiates between good and evil").
+    </p>
+
+    <p>Copyright 2000, Elizabeth Abrams, for the Writing Center at Harvard University</p>
+  </div>
+
+  <div class="menu"> 
+  <a>Science</a> 
+  </div>
+  <div class="main">
+    <p>;orem ipsum</p>
+  </div>
+ 
+
+</div>
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+
+</body>
+<script>
+//define email
+document.getElementById('email').value = "Example@email.com";
+//show email in alert box  
+function showEmail() {
+  var email = document.getElementById('email').value;
+  alert(email); 
+  }
+  const calculator = {
+  displayValue: '0',
+  firstOperand: null,
+  waitingForSecondOperand: false,
+  operator: null,
+};
+
+function inputDigit(digit) {
+  const { displayValue, waitingForSecondOperand } = calculator;
+
+  if (waitingForSecondOperand === true) {
+    calculator.displayValue = digit;
+    calculator.waitingForSecondOperand = false;
+  } else {
+    calculator.displayValue = displayValue === '0' ? digit : displayValue + digit;
+  }
+}
+
+function inputDecimal(dot) {
+  // If the `displayValue` does not contain a decimal point
+  if (!calculator.displayValue.includes(dot)) {
+    // Append the decimal point
+    calculator.displayValue += dot;
+  }
+}
+
+function handleOperator(nextOperator) {
+  const { firstOperand, displayValue, operator } = calculator
+  const inputValue = parseFloat(displayValue);
+
+  if (operator && calculator.waitingForSecondOperand)  {
+    calculator.operator = nextOperator;
+    return;
+  }
+
+  if (firstOperand == null) {
+    calculator.firstOperand = inputValue;
+  } else if (operator) {
+    const currentValue = firstOperand || 0;
+    const result = performCalculation[operator](currentValue, inputValue);
+
+    calculator.displayValue = String(result);
+    calculator.firstOperand = result;
+  }
+
+  calculator.waitingForSecondOperand = true;
+  calculator.operator = nextOperator;
+}
+
+const performCalculation = {
+  '/': (firstOperand, secondOperand) => firstOperand / secondOperand,
+
+  '*': (firstOperand, secondOperand) => firstOperand * secondOperand,
+
+  '+': (firstOperand, secondOperand) => firstOperand + secondOperand,
+
+  '-': (firstOperand, secondOperand) => firstOperand - secondOperand,
+
+  '=': (firstOperand, secondOperand) => secondOperand
+};
+
+function resetCalculator() {
+  calculator.displayValue = '0';
+  calculator.firstOperand = null;
+  calculator.waitingForSecondOperand = false;
+  calculator.operator = null;
+}
+
+function updateDisplay() {
+  const display = document.querySelector('.calculator-screen');
+  display.value = calculator.displayValue;
+}
+
+updateDisplay();
+
+const keys = document.querySelector('.calculator-keys');
+keys.addEventListener('click', (event) => {
+  const { target } = event;
+  if (!target.matches('button')) {
+    return;
+  }
+
+  if (target.classList.contains('operator')) {
+    handleOperator(target.value);
+		updateDisplay();
+    return;
+  }
+
+  if (target.classList.contains('decimal')) {
+    inputDecimal(target.value);
+		updateDisplay();
+    return;
+  }
+
+  if (target.classList.contains('all-clear')) {
+    resetCalculator();
+		updateDisplay();
+    return;
+  }
+
+  inputDigit(target.value);
+  updateDisplay();
+});
+</script>
