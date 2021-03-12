@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18",
+    "mongose": "0.0.2-security",
+    "one-liner-joke": "^1.2.0"
+  }
+}
